@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+
+BoxOffice::CLI.new.call
