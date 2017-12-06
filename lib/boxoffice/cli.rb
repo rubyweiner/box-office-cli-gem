@@ -11,7 +11,7 @@ class BoxOffice::CLI
     puts "y"
     puts "z"
 
-    @movies =  BoxOffice::Movie.today
+    @movies =  BoxOffice::Movies.Today
   end
 
   def options
