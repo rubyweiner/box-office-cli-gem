@@ -6,10 +6,12 @@ class BoxOffice::CLI
   end
 
   def list_movies
-    puts "Today's Top Box Office Movies:"
+    puts "Today's Top 3 Box Office Movies:"
     puts "x"
     puts "y"
     puts "z"
+
+    @movies =  BoxOffice::Movie.today
   end
 
   def options
