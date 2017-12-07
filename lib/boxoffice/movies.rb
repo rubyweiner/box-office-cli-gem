@@ -6,12 +6,18 @@ class BoxOffice::Movies
   end
 
 
-  def self.scrape_mov 
+  def self.scrape_mov
+    movies = []
+
+    movies << self.scrape_mov
     # go to rottentomatoes, find the top three Movies
     # extract the properties of each movies
     # instantiate a movie
 
-    [movie_1, movie_2, movie_3]
+     
   end
+
+  def self.scrape_RT
+    doc = Nokogiri::HTML(open("https://rottontomatoes.com"))
 
 end
