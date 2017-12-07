@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
-require "boxoffice"
+require_relative '../lib/boxoffice'
 
 BoxOffice::CLI.new.call
