@@ -1,19 +1,12 @@
 class BoxOffice::Movies
   attr_accessor :name, :rt_score, :url, :top_three, :cc, :a_score
 
+
   def self.today
     self.mov_info
     self.more_info
   end
 
-
-  #def self.scrape_mov
-#    top_three = []
-#    top_three << movies
-#    binding.pry
-#  end
-
-#movies.each_slice(3).to_a
 
   def self.mov_info
     doc1 = Nokogiri::HTML(open("https://www.rottentomatoes.com/"))
@@ -44,9 +37,7 @@ class BoxOffice::Movies
        top_three[i.to_i].cc = doc2.css("#scorePanel .col-full-xs").text.strip
        top_three[i.to_i].a_score = doc2.css("#scorePanel .audience-score .media-body .meter-value").text.strip
      end
-
   end
 
-  #{top_three[i.to_i].url}
 
 end
