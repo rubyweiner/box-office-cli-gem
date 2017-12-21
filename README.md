@@ -1,28 +1,14 @@
-# Boxoffice::Cli::Gem
+# BoxOffice-Cli-Gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/boxoffice/cli/gem`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The BoxOffice-Cli-Gem uses a CLI to display the current top 3 box office movies and their Rotten Tomatoes score according to the Rotten Tomatoes website. The User is prompted to select one of the three for more information on the movie including audience score and a 'Critic Consensus' description.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'boxoffice-cli-gem'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install boxoffice-cli-gem
+  $ gem install boxoffice-cli-gem
 
 ## Usage
 
-TODO: Write usage instructions here
+  Run 'bestmovies' after installing 'boxoffice-cli-gem'
 
 ## Development
 
@@ -32,4 +18,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/'rubyweiner796-42993'/boxoffice-cli-gem.
+Bug reports and pull requests are welcome on GitHub at https://github.com/'rubyweiner796-42993'/boxoffice-cli-gem. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
